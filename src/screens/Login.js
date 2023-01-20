@@ -5,14 +5,14 @@ export default Login = ({ navigation }) => {
 
     return (
         <>
-            <View style={{ flex: 1, backgroundColor: 'red', }}>
-                <MyStatusBar backgroundColor={'cyan'} barStyle={'dark-content'} />
+            <View style={{ flex: 1, backgroundColor: 'black', }}>
+                <MyStatusBar backgroundColor={'white'} barStyle={'dark-content'} />
                 <View style={{ flex: 1, justifyContent: 'center' }}>
                     <Button
                         title="Press Hereeee"
                         color="green"
                         onPress={() => {
-                            mod=true;
+                             mod=false;
                             console.log("hello")
                             navigation.navigate("Home");
                         }} />
